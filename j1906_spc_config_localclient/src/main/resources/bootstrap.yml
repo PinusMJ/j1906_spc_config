@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-localclient
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://localhost:8085
+  profiles:
+    active: test
+# ${spring.application.name}-${spring.profiles.active}.yml
+# config-localclient-dev.yml
