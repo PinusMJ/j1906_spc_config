@@ -1,0 +1,10 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: config-remoteserver
+  cloud:
+    config:
+      server:
+        git:
+          uri:
