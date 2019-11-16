@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: config-client-order
+  cloud:
+    config:
+      uri: http://localhost:8085
+      fail-fast: true
+  profiles:
+    active: test
